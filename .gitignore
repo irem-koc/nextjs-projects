@@ -11,6 +11,6 @@ package-lock.json
 .DS_Store
 # Ignore log files
 *.log
-
+yarn.lock
 # Ignore environment variables file
 .env
