@@ -18,15 +18,7 @@ const Hero = (props: Props) => {
       <div className="container pt-6 lg:pt-0">
         <Slider {...settings}>
           {slideData?.map((slide, index) => {
-            return (
-              <SlideData
-                key={index}
-                img={slide.img}
-                title={slide.title}
-                mainTitle={slide.mainTitle}
-                price={slide.price}
-              />
-            );
+            return <SlideData key={index} {...slide} />;
           })}
         </Slider>
       </div>
