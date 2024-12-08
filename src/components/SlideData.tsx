@@ -1,12 +1,5 @@
 import Image from "next/image";
 
-type SlideDataProps = {
-  img: string;
-  title: string;
-  mainTitle: string;
-  price: string;
-};
-
 const SlideData = ({ img, title, mainTitle, price }: SlideDataProps) => {
   return (
     <div className="outline-none border-none relative">
