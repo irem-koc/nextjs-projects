@@ -14,3 +14,12 @@ export const slideData = [
     price: "$199.00",
   },
 ];
+export const newProducts = [
+  {
+    img: "/product-1.jpg",
+    title: "Product 1",
+    price: "$99.00",
+    desc: "watch",
+    rating: 4,
+  },
+];
