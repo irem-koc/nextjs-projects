@@ -8,7 +8,7 @@ package-lock.json
 # Ignore IDE and editor files
 .vscode/
 .idea/
-
+.DS_Store
 # Ignore log files
 *.log
 
