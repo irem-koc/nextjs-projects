@@ -1,0 +1,16 @@
+# Ignore node_modules directory
+node_modules
+.next/
+# Ignore build output
+build/
+package-lock.json
+*.mjs
+# Ignore IDE and editor files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore environment variables file
+.env
